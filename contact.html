@@ -31,13 +31,13 @@
     ></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" type="text/css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <nav class="navbar navbar-expand bg-body-tertiary fixed-top">
       <div class="container">
         <a class="navbar-brand" href="index.html" title="Homepage">EJ</a>
         <button
@@ -52,19 +52,21 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" aria-current="page" href="index.html">Home</a>
-            <a class="nav-link" href="about.html" title="About Elmina Jamalova"
-              >About me</a
+          <div class="navbar-nav ms-auto">
+            <a
+              class="nav-link"
+              aria-current="page"
+              href="index.html"
+              title="Homepage"
+              >Home</a
             >
-            <a class="nav-link" href="work.html" title="Contact Elmina Jamalova"
-              >Work</a
-            >
+            <a class="nav-link" href="about.html" title="About Elmina">About</a>
+            <a class="nav-link" href="work.html" title="Elmina's work">Work</a>
             <a
               class="nav-link active"
               href="contact.html"
-              title="Contact Elmina Jamalova"
-              >Contact me</a
+              title="Contact Elmina"
+              >Contact</a
             >
           </div>
         </div>
@@ -73,27 +75,61 @@
     <div class="content-container container">
       <div class="content">
         <h1 class="d-block">Let's get in touch!</h1>
-        <h3 class="mt-5">Email</h3>
-        <p>
+      </div>
+      <footer>
+        <div
+          class="contact-box justify-content-between mb-5 mt-5 d-md-flex contact-page"
+        >
+          <div>
+            <h2>Work Inquiry</h2>
+            <p class="text-muted m-1">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="contact.html"
+              class="contact-link d-block mt-2"
+              title="Contact Elmina"
+              >contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5 mt-5">
           <a
             href="mailto:elminajamalova@gmail.com"
-            title="mail to:elminajamalova@gmail.com"
-            class="email-link"
+            title="email Elmina"
+            class="email-link mt-4"
           >
             elminajamalova@gmail.com</a
           >
-        </p>
-        <h3>LinkedIn</h3>
-        <p>
+        </div>
+        <div class="social-links d-flex justify-content-center">
           <a
+            href="https://github.com/ElminaJam"
+            target="_blank"
+            title="GitHub Profile"
+            ><i class="fab fa-github"></i></a
+          ><a
             href="https://www.linkedin.com/in/elmina-jamal-7a87071a1"
             target="_blank"
-            title="DM on LinkedIn"
-            class="email-link"
-            >ElminaJamal</a
+            title="LinkedIn Profile"
+            ><i class="fab fa-linkedin"></i></a
+          ><a
+            href="https://www.facebook.com/profile.php?id=100083555852220"
+            target="_blank"
+            title="Facebook Profile"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </div>
+        <h5 class="mt-5 pt-3 mb-0 text-center fs-6">
+          Coded by Elmina Jamalova, and is
+          <a
+            href="https://github.com/ElminaJam/Portfolio"
+            target="_blank"
+            title="GitHub Portfolio"
+            >open-sourced</a
           >
-        </p>
-      </div>
+        </h5>
+      </footer>
     </div>
   </body>
 </html>
