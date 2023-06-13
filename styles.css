@@ -1,14 +1,14 @@
 :root {
   --primary-color: #f06806;
   --secondary-color: #f99c3e;
-  --background-color-body: #faf2e5;
+  --background-color-body: #fbf8f4;
   --background-color: #f9eadb;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
   --box-shadow: rgb(0, 0, 0) 0px 0px 5px;
 }
 body {
-  margin: 150px 5px 20px 5px;
+  margin: 150px 5px 5px 5px;
   background-color: var(--background-color-body);
   font-family: var(--default-font-family);
 }
@@ -62,6 +62,19 @@ p {
   font-weight: 400;
   color: #000 !important;
 }
+.background-image {
+  background-image: url(images/background-image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: var(--background-color-body);
+  height: 600px;
+  padding: 50px 5px 5px 5px;
+  margin: 0 5px;
+  margin-top: -30px;
+}
+.hero {
+  margin: 100px 250px 0 0;
+}
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
@@ -103,6 +116,7 @@ footer .contact-box {
   background-color: var(--background-color);
   padding: 40px 120px;
   border-radius: 10px;
+  margin: 15px;
 }
 footer .social-links a {
   margin: 0 20px;
@@ -186,10 +200,33 @@ footer .social-links a:hover {
   body {
     margin-top: 120px;
   }
+  .background-image {
+    height: 250px;
+    padding: 40px 10px 20px;
+  }
+  .hero {
+    margin: 0;
+  }
+  .hero h1 {
+    font-size: 30px;
+  }
+  .hero h2 {
+    font-size: 22px;
+  }
+  .hero h3 {
+    font-size: 20px;
+  }
+  .flag {
+    width: 30px;
+  }
   .primary-link {
     text-align: center;
     display: block;
     margin: 0;
+  }
+  .project-desciption {
+    padding: 0;
+    text-align: center;
   }
   .content,
   .content-container {
@@ -203,10 +240,6 @@ footer .social-links a:hover {
   .content-work h1 {
     font-size: 30px;
   }
-  .project-desciption {
-    padding: 0;
-    text-align: center;
-  }
   .my-image {
     width: 85%;
   }
@@ -217,12 +250,16 @@ footer .social-links a:hover {
     font-size: 12px !important;
   }
   .contact-page {
-    display: flex;
-    padding: 10px !important;
-    margin: 15px;
+    padding: 20px !important;
+    justify-content: space-evenly !important;
   }
   .contact-page .contact-link {
-    padding: 5px;
-    margin-top: 5px;
+    display: flex !important;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px !important;
+  }
+  .contact-page-info {
+    margin-bottom: 200px;
   }
 }
