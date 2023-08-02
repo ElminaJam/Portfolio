@@ -7,6 +7,11 @@
   --default-font-family: "Poppins", sans-serif;
   --box-shadow: rgb(0, 0, 0) 0px 0px 5px;
 }
+
+* {
+  margin: 0;
+}
+
 body {
   margin: 150px 0 5px 0;
   background-color: var(--background-color-body);
@@ -314,6 +319,12 @@ footer .social-links a:hover {
   }
   .skill-set {
     font-size: 12px;
+  }
+  .long {
+    margin-left: -5px;
+  }
+  .icon {
+    width: 40px;
   }
   .primary-link {
     padding: 15px;
