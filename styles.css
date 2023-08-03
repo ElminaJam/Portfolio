@@ -134,6 +134,7 @@ footer .social-links a {
   border-radius: 50%;
   transition: all 100ms ease-in-out;
 }
+
 footer .social-links a:hover {
   color: white;
   background-color: var(--primary-color);
