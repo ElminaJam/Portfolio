@@ -10,6 +10,7 @@
 
 * {
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -249,6 +250,9 @@ footer .social-links a:hover {
   }
   .content-work h1 {
     font-size: 30px;
+  }
+  .weather-app {
+    margin-left: 12px !important;
   }
   .my-image {
     width: 85%;
